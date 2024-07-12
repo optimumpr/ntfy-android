@@ -4,7 +4,6 @@ repositories {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 33
@@ -64,13 +63,6 @@ android {
             '-Xjvm-default=all-compatibility' // https://stackoverflow.com/a/71234042/1440785
         ]
     }
-}
-
-// Disables GoogleServices tasks for F-Droid variant
-android.applicationVariants.all { variant ->
-    def shouldProcessGoogleServices = variant.flavorName == "play"
-    def googleTask = tasks.findByName("process${variant.name.capitalize()}GoogleServices")
-    googleTask.enabled = shouldProcessGoogleServices
 }
 
 // Strips out REQUEST_INSTALL_PACKAGES permission for Google Play variant

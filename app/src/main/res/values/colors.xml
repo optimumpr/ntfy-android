@@ -8,9 +8,9 @@
     <color name="gray_400">#eeeeee</color> <!-- Item selection (light mode) -->
     <color name="white">#ffffffff</color>
 
-    <color name="teal">#338574</color> <!-- Primary color (light mode) -->
-    <color name="teal_light">#65b5a3</color> <!-- Primary color (dark mode) -->
-    <color name="teal_dark">#2a6e60</color> <!-- Action bar background in action mode (light mode) -->
+    <color name="teal">@*android:color/accent_device_default_dark</color> 
+    <color name="teal_dark">@*android:color/accent_device_default_dark</color>
+    <color name="teal_light">#d2d2d2</color>
     <color name="red_light">#fe4d2e</color> <!-- Danger text (dark mode) -->
     <color name="red_dark">#c30000</color> <!-- Danger text (light mode) -->
 </resources>
