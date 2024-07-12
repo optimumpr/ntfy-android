@@ -23,3 +23,11 @@ Thank you to these fantastic resources:
 * [🇩🇪 Germany](https://ntfy.envs.net/)
 * [🇩🇪 Germany](https://ntfy.fossman.de/)
 * [🇺🇸 United States](https://ntfy.schildi.chat/)
+
+## Donations: If you want to support my projects, please donate:
+
+| Paypal |
+| ------ |
+| [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U5ZD3BPPXNW7S) |  <center> 
+
+Thanks
