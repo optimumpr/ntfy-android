@@ -1,21 +1,11 @@
-# ntfy Android App
-This is the Android app for [ntfy](https://github.com/binwiederhier/ntfy) ([ntfy.sh](https://ntfy.sh)). You can find the app in [F-Droid](https://f-droid.org/packages/io.heckel.ntfy/) or the [Play Store](https://play.google.com/store/apps/details?id=io.heckel.ntfy), 
-or as .apk files on the [releases page](https://github.com/binwiederhier/ntfy-android/releases).
-
-## Build
-For up-to-date building instructions, please see the [official docs](https://docs.ntfy.sh/develop/#android-app).
-
-## Translations
-We're using [Weblate](https://hosted.weblate.org/projects/ntfy/) to translate the ntfy Android app. We'd love your participation.
-
-<a href="https://hosted.weblate.org/engage/ntfy/">
-<img src="https://hosted.weblate.org/widgets/ntfy/-/multi-blue.svg" alt="Translation status" />
-</a>
+# Ntfy Android App
+This is a fork of Ntfy app for Android by Philipp C. Heckel. The app allows the use of Unified Push (an open source replacement for proprietary Google push) with publicly available ntfy servers. The app is a companion to my version of Telegram client [Optogram](https://github.com/optimumpr/optogram), which has Unified Push builtin. Users who do not want or have no ability to run a self-hosted server can use the pair for alternative Push.
 
 ## License
-Made with ❤️ by [Philipp C. Heckel](https://heckel.io), distributed under the [Apache License 2.0](LICENSE).
+Distributed under the [Apache License 2.0](LICENSE).
 
 Thank you to these fantastic resources:
+* [Original author](https://github.com/binwiederhier/ntfy-android)
 * [RecyclerViewKotlin](https://github.com/android/views-widgets-samples/tree/main/RecyclerViewKotlin) (Apache 2.0)
 * [Just another Hacker News Android client](https://github.com/manoamaro/another-hacker-news-client) (MIT)
 * [Android Room with a View](https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin) (Apache 2.0)
@@ -24,3 +14,12 @@ Thank you to these fantastic resources:
 * [Foreground service](https://robertohuertas.com/2019/06/29/android_foreground_services/)
 * [github/gemoji](https://github.com/github/gemoji) (MIT) for as data source for an up-to-date [emoji.json](https://raw.githubusercontent.com/github/gemoji/master/db/emoji.json) file
 * [emoji-java](https://github.com/vdurmont/emoji-java) (MIT) has been stripped and inlined to use the emoji.json file
+
+## Public ntfy servers
+* [🇫🇷 France](https://ntfy.tedomum.net/)
+* [🇫🇷 France](https://ntfy.hostux.net/)
+* [🇩🇪 Germany](https://ntfy.adminforge.de/)
+* [🇩🇪 Germany](https://ntfy.mzte.de/)
+* [🇩🇪 Germany](https://ntfy.envs.net/)
+* [🇩🇪 Germany](https://ntfy.fossman.de/)
+* [🇺🇸 United States](https://ntfy.schildi.chat/)
